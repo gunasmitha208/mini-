@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gunasmitha R | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="images/profile.jpg" alt="Gunasmitha R" class="profile-photo" id="profilePhoto">
+        <h1>Gunasmitha R</h1>
+        <p>BCA Student | 1st Year | Bangalore</p>
+        <div class="visitor-count">
+            <span>👁️ Visitors: <span id="visitorCount">0</span></span>
+        </div>
+    </div>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a passionate BCA student currently in my 1st year. 
+        I am learning web development and building my skills in HTML, CSS, and JavaScript. 
+        I am eager to grow and explore new technologies.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Designed and developed a personal portfolio using HTML and CSS.</p>
+    </div>
+
+    <div class="project">
+        <h3>Simple Web Page Design</h3>
+        <p>Created responsive web pages using HTML and CSS.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:gunasmithar@gmail.com">gunasmithar@gmail.com</a></p>
+        <p><strong>Phone:</strong> 8050788917</p>
+    </div>
+    
+    <div class="contact-form">
+        <h3>Send a Message</h3>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Write your message here..." rows="4"></textarea>
+            </div>
+            <button type="submit" id="submitBtn">Send Message</button>
+        </form>
+        <div id="formResponse" class="form-response"></div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Gunasmitha R | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
